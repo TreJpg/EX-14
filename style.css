@@ -4,7 +4,7 @@
 }
 
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: Cambria, Cochin, sans-serif;;
   color: rgb(0, 0, 0);
   font-size: 14px;
 }
@@ -12,7 +12,7 @@ html {
 body {
   min-width: 500px;
   margin: auto;
-  background-color: #20363b;
+  background-color:#022b3a;
 }
 
 header, footer{
@@ -20,15 +20,15 @@ header, footer{
   min-width: 500px;
   height: 50px;
   padding: 15px 0 30px 0;
-  background-color: #98c4c8;
-  color: #FFFFFF;
+  background-color:#bfdbf7;
+  color: hsl(191, 22%, 42%);
 }
 
 .navLogo {
   font-size: 2.9rem;
   font-weight: 700;
   padding: 10px;
-  font-family: trilby, serif;
+  font-family:Cambria, Cochin, sans-serif;
   font-weight: 900;
   font-style: normal;
 }
@@ -52,7 +52,7 @@ main {
 }
 
 .octopus {
-  background-color: white;
+  background-color:#bfdbf7;
   border-radius: 12px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -69,24 +69,23 @@ main {
 }
 
 .octopus h3 {
-  color: #025159;
+  color: #ffffff;
   font-size: 1.5rem;
   margin-bottom: 15px;
   text-align: center;
-  font-family: trilby, serif;
+  font-family: poppins, sans-serif;
   font-weight: 700;
 }
 
 .octopus p {
-  color: #555;
+  color:hsl(191, 22%, 42%);
   line-height: 1.6;
   text-align: left;
   font-size: 1rem;
 }
 
 .weight {
-  background-color: #98c4c8;
-  color: #025159;
+ color: hsl(191, 22%, 42%);
   padding: 8px 12px;
   border-radius: 6px;
   font-size: 0.9rem;
@@ -95,4 +94,12 @@ main {
   margin-bottom: 15px;
   display: inline-block;
   align-self: flex-start;
+}
+
+.octopus-image {
+  width: 100%;
+  height: 239px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 17px;
 }
